@@ -3,7 +3,6 @@
 
 int main() {
     pid_t fpid;
-    int count = 0;
     fpid = fork();
     if (fpid < 0)
         printf("error in fork!");
